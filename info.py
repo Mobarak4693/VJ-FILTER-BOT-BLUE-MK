@@ -11,9 +11,9 @@ id_pattern = re.compile(r'^.\d+$')
 
 # Bot information
 SESSION = environ.get('SESSION', 'JailBot')
-API_ID = int(environ.get('API_ID', '12553805'))
-API_HASH = environ.get('API_HASH', '600346f70ed43ebf3a873c755d022503')
-BOT_TOKEN = environ.get('BOT_TOKEN', "6128343599:AAFE6KC2xEpQGq61ZvC5OZzFkpu6aZheAEw")
+API_ID = int(environ.get('API_ID', ''))
+API_HASH = environ.get('API_HASH', '')
+BOT_TOKEN = environ.get('BOT_TOKEN', "6128343599:ZAEw")
 
 
 # This Pictures Is For Start Message Picture, You Can Add Multiple By Giving One Space Between Each.
